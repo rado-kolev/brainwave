@@ -4,7 +4,7 @@
 
 <br/>
 
-## Description
+## 📜 Description
 
 Brainwave AI - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.
 
@@ -35,14 +35,14 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com)
 
-#### <u>Cloning the Repository<u>
+#### <u>Cloning the Repository</u>
 
 ```
 git clone https://github.com/rado-kolev/brainwave.git
 cd brainwave
 ```
 
-#### <u>Installation<u>
+#### <u>Installation</u>
 
 Install the project dependencies using npm:
 
@@ -50,12 +50,12 @@ Install the project dependencies using npm:
 npm install
 ```
 
-#### <u>Running the Project<u>
+#### <u>Running the Project</u>
 
 ```
 npm run dev
 ```
 
-#### <u>Follow the instructions<u>
+#### <u>Follow the instructions</u>
 
 Or open http://localhost:5173 in your browser to view the project.
