@@ -1,8 +1,23 @@
-# React + Vite
+# Brainwave AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [Live Site](https://brainwave-ai-app.web.app)
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+Brainwave AI - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.
+
+<br/>
+
+## Screenshot
+
+![Website screenshots](./demo/screenshot-brainwave-ai.png)
+
+<br/>
+
+## 🛠️ Built with:
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
