@@ -22,6 +22,8 @@ Brainwave AI - Modern UI/UX website, developed using React.js and Tailwind CSS, 
 ![Vite Badge](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff&style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+<br/>
+
 ## 🚀 Quick start
 
 Follow these steps to set up the project locally on your machine.
