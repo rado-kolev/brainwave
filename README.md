@@ -28,21 +28,21 @@ Brainwave AI - Modern UI/UX website, developed using React.js and Tailwind CSS, 
 
 Follow these steps to set up the project locally on your machine.
 
-### Prerequisites
+### *Prerequisites*
 
 Make sure you have the following installed on your machine:
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com)
 
-#### <u>Cloning the Repository</u>
+#### _Cloning the Repository_
 
 ```
 git clone https://github.com/rado-kolev/brainwave.git
 cd brainwave
 ```
 
-#### <u>Installation</u>
+#### _Installation_
 
 Install the project dependencies using npm:
 
@@ -50,12 +50,12 @@ Install the project dependencies using npm:
 npm install
 ```
 
-#### <u>Running the Project</u>
+#### _Running the Project_
 
 ```
 npm run dev
 ```
 
-#### <u>Follow the instructions</u>
+#### _Follow the instructions_
 
 Or open http://localhost:5173 in your browser to view the project.
