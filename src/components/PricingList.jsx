@@ -8,10 +8,10 @@ const PricingList = () => {
       {pricing.map((item) => (
         <div
           key={item.id}
-          className='w-[19rem] max-lg:w-full h-full even:bg-conic-gradient-2 odd:border odd:border-n-6 rounded-3xl p-0.25 lg:w-auto odd:mt-8'
+          className='w-[19rem] max-lg:w-full h-full even:bg-conic-gradient-2 odd:border odd:border-n-6 rounded-3xl p-0.25 lg:w-auto lg:odd:mt-8 [&>div>h4]:first:text-color-2 [&>div>h4]:even:text-color-3 [&>div>h4]:last:text-color-1'
         >
           <div className='bg-n-8 px-6 rounded-3xl py-8'>
-            <h4 className={`h4 mb-4 text-${item.textColor}`}>{item.title}</h4>
+            <h4 className='h4 mb-4'>{item.title}</h4>
 
             <p className='body-2 min-h-[4rem] mb-3 text-n-1/50'>
               {item.description}

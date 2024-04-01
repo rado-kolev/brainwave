@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { MouseParallax } from "react-just-parallax";
+import PropTypes from 'prop-types';
 
 import PlusSvg from "../../assets/svg/PlusSvg";
 
@@ -43,7 +44,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
   }, []);
 
   return (
-    <div className="absolute -top-[42.375rem] left-1/2 w-[78rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]">
+    <div className="absolute -top-[42.375rem] left-1/2 w-[78rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem] animate-pulse">
       <Rings />
 
       {/* Moving background colored circle balls */}
@@ -98,4 +99,8 @@ export const BackgroundCircles = ({ parallaxRef }) => {
       </MouseParallax>
     </div>
   );
+};
+
+BackgroundCircles.propTypes = {
+  parallaxRef: PropTypes.shape({}),
 };

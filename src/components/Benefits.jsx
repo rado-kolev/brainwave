@@ -7,22 +7,24 @@ import ClipPath from '../assets/svg/ClipPath';
 
 const Benefits = () => {
   return (
-    <Section crosses id='features'>
+    <Section crosses id='features' className='scroll-mt-4'>
       <div className='container relative z-2'>
         <Heading
           className='md:max-w-md lg:max-w-2xl'
           title='Chat Smarter, Not Harder with '
           showSpan={true}
         />
-        <div className='flex flex-wrap justify-center gap-10 mb-10'>
+        <div className='flex flex-wrap justify-center gap-10'>
           {benefits.map((item) => (
             <div
-              className='block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]'
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
               key={item.id}
+              className={`relative md:max-w-[24rem]`}
+              // style={{
+              //   backgroundImage: `url(${item.backgroundUrl})`,
+              // }}
             >
+              {/* block bg-[length:100%_100%] bg-no-repeat   odd:bg-benefit-card-3 even:bg-benefit-card-0 */}
+
               <div className='relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none'>
                 <h5 className='h5 mb-5'>{item.title}</h5>
                 <p className='body-2 mb-6 text-n-3'>{item.text}</p>
@@ -38,6 +40,10 @@ const Benefits = () => {
                   </p>
                   <Arrow />
                 </div>
+              </div>
+
+              <div className='absolute inset-0'>
+                <img src={item.backgroundUrl} className='w-full h-full' />
               </div>
 
               {item.light && <GradientLight />}
@@ -66,6 +72,6 @@ const Benefits = () => {
       </div>
     </Section>
   );
-}
+};
 
-export default Benefits
+export default Benefits;

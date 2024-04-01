@@ -7,8 +7,8 @@ import { check2, grid, loading1 } from '../assets';
 import { Gradient } from './design/Roadmap';
 
 const Roadmap = () => (
-  <Section crosses className='overflow-hidden' id='roadmap'>
-    <div className='container md:pb-10'>
+  <Section crosses id='roadmap' className='scroll-mt-6 md:scroll-mt-2 lg:scroll-mt-6'>
+    <div className='container md:pb-4'>
       <Heading tag='Ready to get started' title="What we're working on" />
 
       <div className='relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]'>
@@ -18,7 +18,9 @@ const Roadmap = () => (
           return (
             <div
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-3xl ${
-                item.colorful ? 'bg-conic-gradient-2' : 'bg-n-6'
+                item.colorful
+                  ? 'odd:bg-conic-gradient-2 even:bg-conic-gradient'
+                  : 'bg-n-6'
               }`}
               key={item.id}
             >
@@ -33,10 +35,10 @@ const Roadmap = () => (
                   />
                 </div>
                 <div className='relative z-1'>
-                  <div className='flex items-center justify-between max-w-[27rem] mb-8 md:mb-20'>
+                  <div className='flex flex-col sm:flex-row items-center justify-between max-w-[27rem] mb-8 md:mb-20'>
                     <Tagline>{item.date}</Tagline>
 
-                    <div className='flex items-center px-4 py-1 bg-n-1 rounded text-n-8'>
+                    <div className='flex items-center px-4 py-1 mt-4 sm:mt-0 bg-n-1 rounded text-n-8'>
                       <img
                         className={`mr-2.5 ${
                           item.status !== 'done' ? 'animate-spin' : ''
@@ -50,7 +52,7 @@ const Roadmap = () => (
                     </div>
                   </div>
 
-                  <div className='mb-10 -my-10 -mx-15'>
+                  <div className=' mb-4 md:mb-10 max-md:mt-8 -my-10 -mx-15'>
                     <img
                       className='w-full'
                       src={item.imageUrl}

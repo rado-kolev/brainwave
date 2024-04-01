@@ -31,7 +31,7 @@ const Collaboration = () => {
         </div>
 
         <div className='lg:ml-56 xl:ml-60 2xl:ml-auto xl:w-[38rem] mt-12 lg:mt-4'>
-          <p className='body-2 mb-12 text-n-4 md:mb-10 lg:mb-20 lg:w-[22rem] lg:mx-auto'>
+          <p className='body-2 mb-12 text-n-4 md:mb-16 lg:mb-20 lg:w-[22rem] lg:mx-auto'>
             {collabText}
           </p>
 

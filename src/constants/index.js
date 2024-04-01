@@ -141,11 +141,11 @@ export const collabContent = [
   {
     id: '0',
     title: 'Seamless Integration',
-    text: collabText,
   },
   {
     id: '1',
     title: 'Smart Automation',
+    text: collabText,
   },
   {
     id: '2',
@@ -223,7 +223,6 @@ export const pricing = [
       'Personalized recommendations based on your preferences',
       'Ability to explore the app and its features without any cost',
     ],
-    textColor: 'color-2',
   },
   {
     id: '1',
@@ -235,7 +234,6 @@ export const pricing = [
       'An analytics dashboard to track your conversations',
       'Priority support to solve issues quickly',
     ],
-    textColor: 'color-3',
   },
   {
     id: '2',
@@ -247,7 +245,6 @@ export const pricing = [
       'Personalized recommendations based on your preferences',
       'Ability to explore the app and its features without any cost',
     ],
-    textColor: 'color-1',
   },
 ];
 
@@ -301,6 +298,7 @@ export const benefits = [
     backgroundUrl: benefitCard6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    light: true,
   },
 ];
 

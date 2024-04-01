@@ -6,8 +6,8 @@ import { LeftLine, RightLine } from './design/Pricing';
 
 const Pricing = () => {
   return (
-    <Section crosses className='overflow-hidden' id='pricing'>
-      <div className='container relative z-2'>
+    <Section id='pricing' className='scroll-mt-12 lg:scroll-mt-16'>
+      <div className='container relative'>
         <div className='hidden relative justify-center mb-[6.5rem] lg:flex'>
           <img
             src={smallSphere}
@@ -19,7 +19,7 @@ const Pricing = () => {
           <div className='absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none'>
             <img
               src={stars}
-              className='w-full'
+              className='w-full animate-pulse'
               width={950}
               height={400}
               alt='Stars'
