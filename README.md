@@ -35,14 +35,14 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com)
 
-#### Cloning the Repository
+#### <u>Cloning the Repository<u>
 
 ```
 git clone https://github.com/rado-kolev/brainwave.git
 cd brainwave
 ```
 
-#### Installation
+#### <u>Installation<u>
 
 Install the project dependencies using npm:
 
@@ -50,10 +50,12 @@ Install the project dependencies using npm:
 npm install
 ```
 
-#### Running the Project
+#### <u>Running the Project<u>
 
 ```
 npm run dev
 ```
 
-#### Follow the instructions or open http://localhost:5173 in your browser to view the project.
+#### <u>Follow the instructions<u>
+
+Or open http://localhost:5173 in your browser to view the project.
